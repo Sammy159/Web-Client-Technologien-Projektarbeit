@@ -1,0 +1,19 @@
+#body{
+  font-family: Helvetica, Arial;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: DarkGray;
+}
+
+.frage{ /*Fragedivs: Blaue Rahmen, hellblauen Hintergrund*/
+  border: 5px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: LightSteelBlue;
+}
+
+#bAuswerten{  /*DIV mit Auswerten-Button*/
+  margin: 5px;
+  margin-left: 15px;
+}
