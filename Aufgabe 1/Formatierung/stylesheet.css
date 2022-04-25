@@ -1,0 +1,198 @@
+.body{
+   background-color:	#e6eef2;
+   font-family: Helvetica, Arial;
+   font-size: 25pt;
+ }
+
+.containerLinks{
+   margin: 1%;
+   width: 70%;
+   float:left;
+   box-sizing: border-box;
+ }
+.platzhalter{
+   width: 12%;
+   float: left;
+   border-radius: 10px;
+ }
+
+
+/*Überschriften*/
+[class*="ueberschrift-"]{
+   text-align: center;
+   color: #cc0000;
+   text-shadow: 2px 2px 2px #660000;
+   font-family: inherit;
+ }
+ .ueberschrift-BRK{
+   font-size: 50pt;
+ }
+.ueberschrift-Bereitschaft{
+  font-size: 30pt;
+  text-align: center;
+}
+#ueberschrift-Bereitschaft2{
+  float:right;
+}
+.ueberschrift-Galerie{
+  text-align: center;
+  color: #92F1C9;
+  text-shadow: 2px 2px 2px #3A6050;
+}
+.ueberschrift-Gesetz{
+  text-align: center;
+  color: #DFC2B2;
+  text-shadow: 2px 2px 3px #9C877C;
+}
+.ueberschrift-eval{
+  text-align: center;
+  color: #9DC3C6;
+}
+
+
+/*Bilder*/
+[class*="bild-"]{
+  float:left;
+  margin: 1%;
+  width: 40%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+}
+.bild-Bereitschaft{
+  width: 25%;
+  float: left;
+}
+.bild-Bereitschaft1{
+  width: 20%;
+  margin-left: 70%;
+}
+.bild-SEG1{
+  box-sizing: border-box;
+  margin-left: 5%;
+  width: 40%;
+  float: left;
+}
+.bild-SEG-G{
+  width: 50%;
+  margin-left: 25%;
+}
+.bild-Corona{
+  width:25%
+}
+.bild-Corona1{
+  margin-left: 5%;
+}
+.bild-tabelle{
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+    /*Bilder per ID*/
+#bild1-bereitschaft2{
+    float: left;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 1px;
+    width: 10%;
+}
+#id-jacke{
+  float:left;
+}
+
+
+
+
+/*Texte*/
+.text90{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  box-sizing: border-box;
+  float: left;
+}
+.text90-eigenerText{
+  color: #6E5C87;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  box-sizing: border-box;
+  float: left;
+}
+
+/*Texthinweise*/
+.bereitschaft-hinweis{
+  float: right;
+  width: 10%;
+  padding-left: 10px;
+  font-size: 12pt;
+  font-variant: small-caps;
+  background-image:linear-gradient(to left, red, lightgrey)
+}
+.katSchutz-hinweis{
+  width: 8%;
+  float: left;
+  margin-top: 40px;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  padding-right: 0.5%;
+  padding-left: 0.5%;
+  font-size: 12pt;
+  border: 3px dotted red;
+}
+
+
+/*Tabelle*/
+.tabelle{
+  width: 1500px;
+  margin-left:5%;
+  margin-right:5%;
+}
+table,td{
+  border: 3px solid silver;
+  border-collapse: collapse;
+}
+th{
+  background-color: #21466c;
+  color: #c10829;
+}
+.tabelle-info{
+  font-size: 10pt;
+}
+
+/*---------------------------------------------------------------------*/
+/*DropDown Menü angelehnt an: https://www.w3schools.com/Css/css_dropdowns.asp*/
+.menue {
+  margin: 1%;
+  float: left;
+  width:10%;
+  background-color: #ea492e;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 0px 14px 3px rgba(0,0,0,0.4);
+}
+
+.mInhalt {
+  display: none;
+  position: absolute;
+  background-color: #808080;
+  min-width: 15%;
+  box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.4);
+  right: 0;
+}
+.mLinks{
+  padding: 15px 20px;
+  display: block;
+}
+.mLinks:hover {
+  background-color: #595959;
+}
+.menue:hover .mInhalt {
+  display: block;
+}
+/*---------------------------------------------------------------------*/

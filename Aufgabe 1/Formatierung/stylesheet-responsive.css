@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+.body{
+   background-color:	#e6eef2;
+   font-family: Helvetica, Arial;
+   font-size: 25pt;
+ }
+
+/*Für kleine Bildschirme*/
+@media screen and (max-width: 1000px) {
+  *{
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  [class*="text40"]{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .bild22-5{
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+  }
+  .katSchutz-hinweis{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/*für große Bildschirme*/
+@media screen and (min-width: 1000px){
+ *{
+   float:left;
+  }
+  .ueberschrift-KatSchutz{
+    float:none;
+  }
+  .text90{
+    height: auto;
+  }
+  .text40li{
+    width: 39%;
+    height: auto;
+    margin-left: 5%;
+  }
+  .text40re{
+    width: 39%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 5%;
+  }
+  .katSchutz-hinweis{
+    width: 8%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+  }
+  .bild22-5{
+    width: 22.5%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .margin5{
+    width:5%;
+  }
+  a{
+    float:none;
+  }
+}
+
+/*Unabhängig von der Größe*/
+.ueberschrift-KatSchutz{
+   text-align: center;
+   color: #994040;
+   text-shadow: 2px 2px 2px #5B2626;
+   font-family: inherit;
+ }
+
+ .text90{
+   margin-left: 5%;
+   margin-right: 5%;
+   width: 90%;
+ }
+
+ .katSchutz-hinweis{
+   margin-top: 40px;
+   padding-right: 0.5%;
+   padding-left: 0.5%;
+   font-size: 12pt;
+   border: 3px dotted red;
+ }
+
+ .bild22-5{
+   margin-top:20px;
+   border-radius: 20px;
+   text-align: center;
+ }
+ .bild-Kat{
+  width:10%;
+}
+ figcaption{
+   font-size: 12pt;
+   display: block;
+   caption-side: bottom;
+ }
+ .platzhalter{
+    width: 12%;
+    border-radius: 10px;
+  }
